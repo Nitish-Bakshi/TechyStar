@@ -42,7 +42,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div class="home4" id="brands">
+      <div className="home4" id="brands">
         <div>
           <h1>Brands</h1>
           <article>
