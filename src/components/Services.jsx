@@ -11,11 +11,11 @@ const Services = () => {
       <Carousel>
         <div>
           <img src={img1} alt="item1" />
-          <p>Full Stack</p>
+          <p className="legend">Full Stack</p>
         </div>
         <div>
           <img src={img2} alt="item1" />
-          <p>AI</p>
+          <p className="legend">AI</p>
         </div>
       </Carousel>
     </div>
