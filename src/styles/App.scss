@@ -3,6 +3,7 @@
 @import "header";
 @import "home";
 @import "footer";
+@import "contact";
 
 * {
   margin: 0%;
@@ -11,4 +12,8 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+}
+::selection {
+  background-color: hotpink;
+  color: white;
 }

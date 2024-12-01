@@ -1,4 +1,4 @@
-@import "colors";
+@use "colors" as c;
 
 footer {
   height: 20vh;
@@ -14,24 +14,24 @@ footer {
     justify-content: center;
     align-items: center;
     > h1 {
-      font: 700 2rem $text1;
+      font: 700 2rem c.$text1;
       text-transform: uppercase;
-      color: $third;
+      color: c.$third;
     }
     > p {
-      font: 500 1.2rem $text1;
+      font: 500 1.2rem c.$text1;
     }
     > h5 {
-      font: 300 2rem $text1;
+      font: 300 2rem c.$text1;
       margin: 1rem 0;
     }
     > div > a {
-      font: 500 1rem $text1;
+      font: 500 1rem c.$text1;
       margin: 0 1rem;
-      color: $dark;
+      color: c.$dark;
       transition: 0.3s all;
       &:hover {
-        color: $third;
+        color: c.$third;
       }
     }
   }
