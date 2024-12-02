@@ -57,5 +57,35 @@
     text-align: center;
     width: 100%;
     border-radius: 0;
+    > p {
+      font-size: 0.9rem;
+    }
+  }
+  .home4 {
+    > div {
+      width: 100%;
+      height: 120vh;
+      border-radius: 0;
+      > article > div {
+        width: 8rem;
+        height: 8rem;
+        > svg {
+          font-size: 3rem;
+        }
+        > p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  footer {
+    flex-direction: column;
+  }
+  .contact {
+    align-items: flex-start;
+    margin-top: -100px;
+    > h1 {
+      padding: 0;
+    }
   }
 }
